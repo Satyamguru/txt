@@ -29,7 +29,7 @@ import os
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("6503744041:AAEDF40jp-DVy71d6Ys3dkjLRZB1GUOm4gs"),
+    bot_token=os.environ.get("6649050549:AAFgk4XBoII3z_OVh3bQuFByhzseoPr1EZ4"),
     api_id=int(os.environ.get("15816419")),
     api_hash=os.environ.get("626ed6dab78881858778d9663682962e")
 )
