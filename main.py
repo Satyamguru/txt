@@ -29,9 +29,9 @@ import os
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("6649050549:AAFgk4XBoII3z_OVh3bQuFByhzseoPr1EZ4"),
-    api_id=int(os.environ.get("15816419")),
-    api_hash=os.environ.get("626ed6dab78881858778d9663682962e")
+    bot_token=os.environ.get("BOT_TOKEN"),
+    api_id=int(os.environ.get("API_ID")),
+    api_hash=os.environ.get("API_HASH")
 )
 
 @bot.on_message(filters.command(["start"])& ~filters.edited)
